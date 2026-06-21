@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TimeCardTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-06-21T01:33:04" hostname="Elenas-MacBook-Air.local" time="0.005">
+  <properties/>
+  <testcase name="testGetHoursWorked()" classname="TimeCardTest" time="0.004"/>
+  <testcase name="testGetEmployeeID()" classname="TimeCardTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

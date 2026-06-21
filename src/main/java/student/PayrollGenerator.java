@@ -69,10 +69,17 @@ public final class PayrollGenerator {
         // as it is invalid, but if is 0, you still generate a paystub, but the amount is 0.
 
         //YOUR CODE HERE
+        for(ITimeCard timeCard: timeCardList) {
+            for(IEmployee employee: employees) {
+                if(timeCard.getEmployeeID().equals(employee.getID()) && timeCard.getHoursWorked() >=0){
+                    IPayStub payStub = employee.runPayroll(timeCard.getHoursWorked());
+                    payStubs.add(payStub);
+                }
+            }
+        }
       
 
          // now save out employees to a new file
-
          employeeLines = employees.stream().map(IEmployee::toCSV).collect(Collectors.toList());
          employeeLines.add(0, FileUtil.EMPLOYEE_HEADER);
          FileUtil.writeFile(arguments.getEmployeeFile(), employeeLines);
