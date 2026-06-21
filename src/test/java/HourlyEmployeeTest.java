@@ -12,7 +12,7 @@ class HourlyEmployeeTest {
 
     @BeforeEach
     void setup() {
-        elena = new HourlyEmployee("Elena", "12345", 50, "HOURLY", 80000, 8000, 0);
+        elena = new HourlyEmployee("Elena", "12345", 50, 80000, 8000, 0);
     }
 
     @Test

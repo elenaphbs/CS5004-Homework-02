@@ -80,10 +80,10 @@ public final class Builder {
         }
 
         if (list[0].equals("SALARY")) {
-            employee = new SalaryEmployee(name, id, payRate, employeeType,
+            employee = new SalaryEmployee(name, id, payRate,
                     ytdEarnings, ytdTaxesPaid, pretaxDeductions);
         } else if (list[0].equals("HOURLY")) {
-            employee = new HourlyEmployee(name, id, payRate, employeeType,
+            employee = new HourlyEmployee(name, id, payRate,
                     ytdEarnings, ytdTaxesPaid, pretaxDeductions);
         }
         return employee;

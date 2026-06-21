@@ -12,8 +12,8 @@ public class PayStubTest {
 
     @BeforeEach
     void setup() {
-        hourly = new HourlyEmployee("Kiki", "00000", 30, "HOURLY", 10000, 1000, 0);
-        salary = new SalaryEmployee("Kimi", "11111", 240000, "SALARY",20000, 4000, 1000);
+        hourly = new HourlyEmployee("Kiki", "00000", 30, 10000, 1000, 0);
+        salary = new SalaryEmployee("Kimi", "11111", 240000, 20000, 4000, 1000);
         payStub1 = new PayStub(hourly, 1000, 200);
         payStub2 = new PayStub(salary, 10000, 2000);
     }

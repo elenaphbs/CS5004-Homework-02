@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * Abstract class for employees.
+ * Abstract base class for employees.
  */
 public abstract class Employee implements IEmployee {
 

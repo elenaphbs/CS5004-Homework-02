@@ -16,14 +16,13 @@ public class HourlyEmployee extends Employee {
      * @param name the name
      * @param id the ID
      * @param payRate the pay rate
-     * @param employType the employee type
      * @param ytdEarnings the YTD earnings
      * @param ytdTaxesPaid the YTD taxes paid
      * @param pretaxDeductions the pretax deductions
      */
-    public HourlyEmployee(String name, String id, double payRate, String employType,
+    public HourlyEmployee(String name, String id, double payRate,
                           double ytdEarnings, double ytdTaxesPaid, double pretaxDeductions) {
-        super(name, id, payRate, employType, ytdEarnings, ytdTaxesPaid, pretaxDeductions);
+        super(name, id, payRate, "HOURLY", ytdEarnings, ytdTaxesPaid, pretaxDeductions);
     }
 
     /**
