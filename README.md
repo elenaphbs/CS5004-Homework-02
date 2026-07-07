@@ -1,4 +1,5 @@
 Name: Yanyan Wang 
+Github: https://github.com/elenaphbs/CS5004-Homework-02.git
 
 How many hours did it take you to complete this assignment (estimate)? 
 
