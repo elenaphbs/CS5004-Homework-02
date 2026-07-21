@@ -10,7 +10,7 @@ capacity.
 
 * one per row, add more if needed
 
-> No, I finished the assignment alone.
+> Yes, I finished the assignment with Claude Code which mainly helped me push the assignment to github, since I'm not familiar with github.
   
 Did you use any external resources (you do not have to cite in class material)? (Cite them below)
 
